@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hello">
+    <output-path>E:/tomcat/apache-tomcat-7.0.47/webapps/hello</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="helloworld/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloworld" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+    </root>
+  </artifact>
+</component>
